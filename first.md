@@ -1,3 +1,4 @@
+### Create a 2 nodes point to point connection using ns3
 ```cpp
 #include "ns3/core-module.h"
 #include "ns3/network-module.h"
