@@ -36,57 +36,57 @@ Furthermore, the ns-3 software infrastructure encourages the development of simu
 Download the [NS3](https://www.nsnam.org/releases/ns-3-30/download/) tar file.
 
 Go to download folder
-```
+```bash
 cd Download/
 ```
 
 To check that the tar file is downloaded properly run 
-```
+```bash
 ls
 ```
 You'll see a `ns-allinone-3.<version>.tar.bz2`.
 
 
 To extract the tar file run: 
-```
+```bash
 tar -xvf ./ns-allinone-3.30.1.tar.bz2
 ```
 
 To enter the ns-3 folder run
-```
+```bash
 cd ns-allinone-3.30.1
 ```
 
 Once you're in the `ns-allinone-3.30.1` directory, run:
-```
+```bash
 ./build.py --enable-examples --enable-tests
 ```
 
 To install all dependency (in ubuntu) run:
-```
+```bash
 apt install gcc python python-dev qty-dev-tools libgtk-3-dev python-pygoocanvas python-pygraphvizwiresharkgnuplot openjdk-7-jdk
 ```
 If you're on ubuntu 18.04+ run:
-```
+```bash
 apt install gir1.2-goocanvas-2.0 python3-gi python3-gi-cairo python3-pygraphviz gir1.2-gtk-3.0 ipython3
 ```
 To enter the ns-3 folder
-```
+```bash
 cd ./ns-3
 ```
 
 To run tests
-```
+```bash
 ./test.py -c core
 ```
 
 Now, to create a connection between 2 machines, copy the file named `first.cc` in `./tutorial/example/` to `./scratch` run:
-```
+```bash
 ./waf --run scratch/first
 ```
 
 Now, to run the animator
-```
+```bash
 cd ../
 ls
 cd ./netanim-3.108
