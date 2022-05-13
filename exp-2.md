@@ -3,7 +3,7 @@
 To simulate a network containing 3 nodes with point-to-point connection using NS3.
 
 ### Source Code:
-```
+```cpp
 #include "ns3/core-module.h"
 #include "ns3/network-module.h"
 #include "ns3/internet-module.h"
@@ -76,7 +76,6 @@ int main (int argc, char *argv[])
     Simulator::Destroy ();
     return 0;
 }
-
 ```
 
 ## Experiment 2(b)
@@ -84,7 +83,7 @@ int main (int argc, char *argv[])
 To simulate a network containing 4 nodes with point-to-point connection using NS3.
 
 ### Source Code:
-```
+```cpp
 #include "ns3/core-module.h"
 #include "ns3/network-module.h"
 #include "ns3/internet-module.h"
@@ -166,6 +165,4 @@ int main (int argc, char *argv[])
     Simulator::Destroy ();
     return 0;
 }
-
 ```
-
