@@ -17,6 +17,10 @@ It is a widely used type of registered jack connector in Ethernet cables or netw
 
 It is used to create a connection with both shielded twisted pair (STP) and unshielded twisted pair (UTP) cabling in the star topology of the Ethernet network. RJ45 connectors are usually with 8P8C that means eight positions, eight contacts modular connectors with separate twisted pair for connecting computer and telephone lines, wall plates, patch panels and other networking devices.
 
+The cable required is category `5e` or `CATse`.
+The tool used id RJ-45 crimping tool.
+Here, two kinds of cable you can make `Straight` or `Crossover`.
+
 ### Straight Cables
 
 A straight through cable is a type of twisted pair cable that is used in local area networks to connect a computer to a network hub such as a router. This type of cable is also sometimes called a patch cable and is an alternative to wireless connections where one or more computers access a router through a wireless signal. On a straight through cable, the wired pins match.
@@ -26,3 +30,12 @@ Straight through cable use one wiring standard: both ends use T568A wiring stand
 ### Crossover Cables
 
 An Ethernet crossover cable is a type of Ethernet cable used to connect computing devices together directly. Unlike straight through cable, crossover cables use two different wiring standards: one end uses the T568A wiring standard, and the other end uses the T568B wiring standard. The internal wiring of Ethernet crossover cables reverses the transmit and receive signals. It is most often used to connect two devices of the same type: e.g. two computers (via network interface controller) or two switches to each other.
+
+### Steps to make Ethernet Cable
+
+1. Unroll the required length of cable with a extra margin.
+2. Carefully remove the outer covering cable.
+3. Untwist the cable pairs & arrange them.
+4. Place the wires in the plug & put the plug into crimping tool.
+
+![img](https://raw.githubusercontent.com/rajatgupta24/DCN/master/RJ45.jpg)
